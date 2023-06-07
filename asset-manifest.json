@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/noumecha-portfolio/static/css/main.a898f12c.css",
-    "main.js": "/noumecha-portfolio/static/js/main.139d02b9.js",
+    "main.css": "/noumecha-portfolio/static/css/main.625fa6c4.css",
+    "main.js": "/noumecha-portfolio/static/js/main.3aba9f3c.js",
     "static/js/787.c3391c74.chunk.js": "/noumecha-portfolio/static/js/787.c3391c74.chunk.js",
-    "static/media/logo.svg": "/noumecha-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/logo.svg": "/noumecha-portfolio/static/media/logo.ae2668be97e5e784d84724386ff98acf.svg",
     "index.html": "/noumecha-portfolio/index.html",
-    "main.a898f12c.css.map": "/noumecha-portfolio/static/css/main.a898f12c.css.map",
-    "main.139d02b9.js.map": "/noumecha-portfolio/static/js/main.139d02b9.js.map",
+    "main.625fa6c4.css.map": "/noumecha-portfolio/static/css/main.625fa6c4.css.map",
+    "main.3aba9f3c.js.map": "/noumecha-portfolio/static/js/main.3aba9f3c.js.map",
     "787.c3391c74.chunk.js.map": "/noumecha-portfolio/static/js/787.c3391c74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a898f12c.css",
-    "static/js/main.139d02b9.js"
+    "static/css/main.625fa6c4.css",
+    "static/js/main.3aba9f3c.js"
   ]
 }
