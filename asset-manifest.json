@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/noumecha-portfolio/static/css/main.12fc903e.css",
-    "main.js": "/noumecha-portfolio/static/js/main.8225b14b.js",
+    "main.css": "/noumecha-portfolio/static/css/main.d43a358b.css",
+    "main.js": "/noumecha-portfolio/static/js/main.bb8dea85.js",
     "static/js/787.c3391c74.chunk.js": "/noumecha-portfolio/static/js/787.c3391c74.chunk.js",
     "static/media/logo.svg": "/noumecha-portfolio/static/media/logo.ae2668be97e5e784d84724386ff98acf.svg",
     "index.html": "/noumecha-portfolio/index.html",
-    "main.12fc903e.css.map": "/noumecha-portfolio/static/css/main.12fc903e.css.map",
-    "main.8225b14b.js.map": "/noumecha-portfolio/static/js/main.8225b14b.js.map",
+    "main.d43a358b.css.map": "/noumecha-portfolio/static/css/main.d43a358b.css.map",
+    "main.bb8dea85.js.map": "/noumecha-portfolio/static/js/main.bb8dea85.js.map",
     "787.c3391c74.chunk.js.map": "/noumecha-portfolio/static/js/787.c3391c74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12fc903e.css",
-    "static/js/main.8225b14b.js"
+    "static/css/main.d43a358b.css",
+    "static/js/main.bb8dea85.js"
   ]
 }
