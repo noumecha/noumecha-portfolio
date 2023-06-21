@@ -2,27 +2,27 @@
     "title" : "my list of preferences templates for this protfolio project",
     "url_list" : [
         {
-            "https://templatemo.com/live/templatemo_458_lavish": [
-            "",
-            ""
-            ]
-        },
-        {
             "https://technext.github.io/profile/" : [
-            "",
-            ""
+            "Resume",
+            "Skills",
+            "Hire Me Section"
             ]
         },
         {
             "https://technext.github.io/clark/index.html" : [
-            "",
-            ""
+            "About",
+            "Hire Me Section",
+            "Projects",
+            "Contact Section"
             ]
         },
         {
             "https://www.free-css.com/assets/files/free-css-templates/preview/page269/virtual-folio/" : [
-            "",
-            ""
+            "Hero Section",
+            "Resume",
+            "Count Section",
+            "Footer",
+            "Menu Section"
             ]
         }
     ],
