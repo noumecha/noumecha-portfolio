@@ -4,7 +4,7 @@ import Profile from './pages/Profile';
 import Projects from './pages/Projects';
 import ProjectDetails from './pages/ProjectDetails';
 import logo from './assets/logo.svg';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (

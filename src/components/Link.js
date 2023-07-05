@@ -1,4 +1,4 @@
-import "./Link.css";
+import "./Link.scss";
 
 function Link({src, title})
 {

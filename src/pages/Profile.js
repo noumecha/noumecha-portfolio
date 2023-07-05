@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Link from "../components/Link";
 import List from "../components/List";
-import './Profile.css';
+import './Profile.scss';
 
 function Profile({ userName }) {
     const [loading, setLoading] = useState(false);

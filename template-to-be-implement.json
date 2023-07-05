@@ -3,28 +3,50 @@
     "url_list" : [
         {
             "https://technext.github.io/profile/" : [
-            "Resume",
-            "Skills",
-            "Hire Me Section"
+            "4-Skills"
             ]
         },
         {
             "https://technext.github.io/clark/index.html" : [
-            "About",
-            "Hire Me Section",
-            "Projects",
-            "Contact Section"
+            "5-Services",
+            "6-Hire Me Section",
+            "7-Projects",
+            "8-Contact Section"
             ]
         },
         {
             "https://www.free-css.com/assets/files/free-css-templates/preview/page269/virtual-folio/" : [
-            "Hero Section",
-            "Resume",
-            "Count Section",
-            "Footer",
-            "Menu Section"
+            "0-Menu",
+            "1-Hero Section",
+            "2-About",
+            "3-Resume",
+            "5-Count Section",
+            "7-Projects",
+            "9-Footer"
             ]
         }
     ],
-    "shit" : "yess i made the choice difficult"
+    "shit" : "yess i made the choice difficult",
+    "typography" : {
+        "police" : [
+            "https://fonts.google.com/specimen/Quicksand?query=qui (texts)",
+            "https://fonts.google.com/specimen/Oxygen+Mono?query=oxy (titles)"
+        ],
+        "size" : {
+            "big-title" : "36(mobile) - 48px(web-bold)",
+            "title" : "34px-32px-30px",
+            "subtitle" : "26px(mobile) - 28(web-bold)",
+            "description" : "16px(mobile) - 18-22px(web) - 26px(web-bold)",
+            "link" : "12-14px",
+            "button" : "16px"
+        }
+    },
+    "colors" : {
+        "primary-color" : "#04BF37",
+        "secondary-color" : "#1CA6E1 or #ff5252",
+        "background-color" : "#07295A",
+        "text-color" : "#FCFEFD && #0B0C0C",
+        "button-color": "#ff5252",
+        "link-color": "#1CA6E1 or #ff5252"
+    }
 }
