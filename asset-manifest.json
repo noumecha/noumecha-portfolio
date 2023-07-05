@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/noumecha-portfolio/static/css/main.d43a358b.css",
-    "main.js": "/noumecha-portfolio/static/js/main.bb8dea85.js",
+    "main.js": "/noumecha-portfolio/static/js/main.8c34ead8.js",
     "static/js/787.c3391c74.chunk.js": "/noumecha-portfolio/static/js/787.c3391c74.chunk.js",
     "static/media/logo.svg": "/noumecha-portfolio/static/media/logo.ae2668be97e5e784d84724386ff98acf.svg",
     "index.html": "/noumecha-portfolio/index.html",
     "main.d43a358b.css.map": "/noumecha-portfolio/static/css/main.d43a358b.css.map",
-    "main.bb8dea85.js.map": "/noumecha-portfolio/static/js/main.bb8dea85.js.map",
+    "main.8c34ead8.js.map": "/noumecha-portfolio/static/js/main.8c34ead8.js.map",
     "787.c3391c74.chunk.js.map": "/noumecha-portfolio/static/js/787.c3391c74.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d43a358b.css",
-    "static/js/main.bb8dea85.js"
+    "static/js/main.8c34ead8.js"
   ]
 }
