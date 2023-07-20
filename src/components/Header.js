@@ -27,6 +27,11 @@ function Header ({logo}) {
                         Contactez-moi
                     </RouterLink>
                 </div>
+                <div className='App-hamburger'>
+                    <a href='/' className='App-hamburger-link'>
+                        ---
+                    </a>
+                </div>
                 <div className='App-lang'>
                     <a href='/' className='App-lang-link'>
                         EN

@@ -1,4 +1,5 @@
-@import "../styles/variables";
+//@import "../styles/variables";
+@use "../styles/uses.scss" as *;
 .App-header {
   background-color: $bg-clr;
   min-height: 100vh;
@@ -35,6 +36,9 @@
     justify-content: space-evenly;
     padding: 10px;
     background-color: rgba($color: $bg-clr, $alpha: 0.9);
+    @include devices(mobile) {
+      justify-content: space-between;
+    }
     .App-logo {
       display: flex;
       flex-direction: row;
@@ -51,6 +55,10 @@
       flex-direction: row;
       align-items: center;
       justify-content: center;
+      @include devices(mobile) {
+        flex-direction: colum;
+        display: none;
+      }
       .App-link {
         text-decoration: none;
         margin-left: 10px;
@@ -62,6 +70,29 @@
           border-bottom: 3px solid $primary-clr;
           color: $primary-clr;
         }
+      }
+    }
+    .App-hamburger {
+      display: none;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      @include devices(mobile) {
+        display: flex;
+      }
+      &-link {
+        display: flex;
+        font-size: 14px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        text-decoration: none;
+        background-color: $primary-clr;
+        text-align: center;
+        color: $txt-cl-wh;
+        height: 40px;
+        z-index: 6;
       }
     }
     .App-lang {

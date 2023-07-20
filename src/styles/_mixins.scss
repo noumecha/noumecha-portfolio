@@ -1,0 +1,15 @@
+ // $breakpoint is the variable that can have several values
+ @mixin devices ($breakpoint) {
+
+    @if $breakpoint == tablet {
+    @media only screen and (max-width: 680px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == mobile {
+    @media only screen and (max-width: 481px) {
+      @content;
+    }
+  }
+}
