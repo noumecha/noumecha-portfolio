@@ -38,6 +38,8 @@
     background-color: rgba($color: $bg-clr, $alpha: 0.9);
     @include devices(mobile) {
       justify-content: space-between;
+      background-color: rgba($color: $bg-clr, $alpha: 0.9);
+      margin: 0;
     }
     .App-logo {
       display: flex;
@@ -49,32 +51,78 @@
       position: relative;
       pointer-events: none;
       animation: App-logo-spin infinite 20s linear;
+      @include devices(mobile) {
+        height: 50px;
+      }
     }
     .App-menu {
       display: flex;
+      position: relative;
       flex-direction: row;
+      padding-top: 16px;
+      padding-bottom: 16px;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       @include devices(mobile) {
-        flex-direction: colum;
-        display: none;
+        position: absolute;
+        left: 0;
+        top: 70px;
+        width: 100%;
+        padding: 20px;
+        background-color: rgba($color: $bg-clr, $alpha: 0.9);
+        flex-direction: column;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
       }
       .App-link {
         text-decoration: none;
-        margin-left: 10px;
         font-size: 18px;
+        margin-left: 20px;
         text-transform: capitalize;
         color: $txt-cl-wh;
+        box-sizing: border-box;
         transition: ease-in-out 0.2s;
         &:hover , &-selected {
-          border-bottom: 3px solid $primary-clr;
+          border-bottom: 4px solid $primary-clr;
           color: $primary-clr;
+        }
+        @include devices(mobile) {
+          margin-left: 0;
+          margin-bottom: 20px;
+        }
+      }
+      .App-lang {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: center;
+        &-link {
+          display: flex;
+          font-size: 14px;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          width: 40px;
+          border-radius: 50%;
+          text-decoration: none;
+          background-color: $primary-clr;
+          text-align: center;
+          color: $txt-cl-wh;
+          height: 40px;
+          z-index: 6;
+        }
+        @include devices(mobile) {
+          margin-left: 0;
         }
       }
     }
     .App-hamburger {
       display: none;
       flex-direction: row;
+      margin-left: 20px;
       align-items: center;
       justify-content: center;
       @include devices(mobile) {
@@ -83,41 +131,26 @@
       &-link {
         display: flex;
         font-size: 14px;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
-        width: 40px;
-        text-decoration: none;
-        background-color: $primary-clr;
+        justify-content: space-evenly;
+        width: 30px;
+        //background-color: $primary-clr;
+        border: 1px solid $primary-clr;
         text-align: center;
-        color: $txt-cl-wh;
-        height: 40px;
+        height: 30px;
         z-index: 6;
-      }
-    }
-    .App-lang {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      &-link {
-        display: flex;
-        font-size: 14px;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        width: 40px;
-        border-radius: 50%;
-        text-decoration: none;
-        background-color: $primary-clr;
-        text-align: center;
-        color: $txt-cl-wh;
-        height: 40px;
-        z-index: 6;
+        &-line {
+          display: block;
+          width: 80%;
+          background-color: $primary-clr;
+          height: 1px;
+        }
       }
     }
   }
   .App-header-desc {
+    position: relative;
     color: $txt-cl-wh;
     z-index: 5;
     &-subtitle {

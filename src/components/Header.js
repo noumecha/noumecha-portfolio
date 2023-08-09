@@ -5,7 +5,7 @@ import "./Header.scss";
 function Header ({logo}) {
     return (
         <header className="App-header">
-            <nav>
+            <nav className='container-flex Nav-bar'>
                 <img src={logo} className="App-logo" alt="logo"/>
                 <div className='App-menu'>
                     <RouterLink to='/about' className='App-link App-link-selected'>
@@ -26,15 +26,17 @@ function Header ({logo}) {
                     <RouterLink to='/Contact' className='App-link'>
                         Contactez-moi
                     </RouterLink>
+                    <div className='App-lang'>
+                        <a href='/' className='App-lang-link'>
+                            EN
+                        </a>
+                    </div>
                 </div>
                 <div className='App-hamburger'>
                     <a href='/' className='App-hamburger-link'>
-                        ---
-                    </a>
-                </div>
-                <div className='App-lang'>
-                    <a href='/' className='App-lang-link'>
-                        EN
+                        <div className='App-hamburger-link-line'></div>
+                        <div className='App-hamburger-link-line'></div>
+                        <div className='App-hamburger-link-line'></div>
                     </a>
                 </div>
             </nav>
