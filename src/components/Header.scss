@@ -65,13 +65,13 @@
       justify-content: space-between;
       @include devices(mobile) {
         position: absolute;
+        display: none;
         left: 0;
         top: 70px;
         width: 100%;
         padding: 20px;
         background-color: rgba($color: $bg-clr, $alpha: 0.9);
         flex-direction: column;
-        display: flex;
         align-items: baseline;
         justify-content: space-between;
       }
@@ -134,11 +134,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        width: 30px;
-        //background-color: $primary-clr;
+        width: 35px;
+        padding: 5px;
         border: 1px solid $primary-clr;
         text-align: center;
-        height: 30px;
+        height: 35px;
         z-index: 6;
         &-line {
           display: block;
@@ -158,6 +158,11 @@
       color: $txt-cl-wh;
       font-size: $subtitle;
       margin-bottom: 30px;
+      @include devices(mobile) {
+        margin-left: 0;
+        margin-bottom: 20px;
+        font-size: 22px;
+      }
     }
     &-title {
       font-family: $font-two;
@@ -167,6 +172,9 @@
       span {
         color: $primary-clr;
       }
+      @include devices(mobile) {
+        font-size: 26px;
+      }
     }
     &-btn {
       color: $primary-clr;
@@ -175,6 +183,9 @@
       background-color: rgba($color: $primary-clr, $alpha: 0.5);
       border-radius: 60px;
       margin-bottom: 30px;
+      @include devices(mobile) {
+        font-size: 20px;
+      }
     }
   }
   @keyframes App-logo-spin {

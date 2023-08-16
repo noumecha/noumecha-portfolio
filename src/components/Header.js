@@ -1,8 +1,15 @@
 import { Link as RouterLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import "./Header.scss";
+import MenuLink from './MenuLink/MenuLink';
 
 function Header ({logo}) {
+
+    const toggleMenu = (e) => {
+        e.preventDefault();
+        console.log('toggleMenu');
+    };
+
     return (
         <header className="App-header">
             <nav className='container-flex Nav-bar'>
@@ -32,13 +39,7 @@ function Header ({logo}) {
                         </a>
                     </div>
                 </div>
-                <div className='App-hamburger'>
-                    <a href='/' className='App-hamburger-link'>
-                        <div className='App-hamburger-link-line'></div>
-                        <div className='App-hamburger-link-line'></div>
-                        <div className='App-hamburger-link-line'></div>
-                    </a>
-                </div>
+                <MenuLink toggleMenu={toggleMenu}/>
             </nav>
             <div className='App-header-desc'>
                 <h4 className='App-header-desc-subtitle'>
