@@ -7,6 +7,7 @@ function Header ({logo}) {
 
     const toggleMenu = (e) => {
         e.preventDefault();
+        document.body.classList.add('App-menu mobile')
         console.log('toggleMenu');
     };
 
