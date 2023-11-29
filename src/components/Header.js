@@ -7,15 +7,14 @@ function Header ({logo}) {
 
     const toggleMenu = (e) => {
         e.preventDefault();
-        document.body.classList.add('App-menu mobile')
-        console.log('toggleMenu');
+        document.getElementById('App-menu').classList.toggle("mobile");
     };
 
     return (
         <header className="App-header">
             <nav className='container-flex Nav-bar'>
                 <img src={logo} className="App-logo" alt="logo"/>
-                <div className='App-menu'>
+                <div className='App-menu' id="App-menu">
                     <RouterLink to='/about' className='App-link App-link-selected'>
                         A Propos
                     </RouterLink>

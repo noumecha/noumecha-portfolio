@@ -17,9 +17,8 @@
   &::after {
     content: "";
     display: block;
-    z-index: 4;
     position: absolute;
-    background: rgba($color: $bg-clr-der, $alpha: 0.5);
+    //background: rgba($color: $bg-clr-der, $alpha: 0.5);
     top: 0;
     left: 0;
     bottom: 0;
@@ -27,7 +26,6 @@
   }
   nav {
     position: absolute;
-    z-index: 5;
     top: 0;
     display: flex;
     flex-direction: row;
@@ -47,7 +45,6 @@
       align-items: center;
       justify-content: center;
       height: 60px;
-      z-index: 6;
       position: relative;
       pointer-events: none;
       animation: App-logo-spin infinite 20s linear;
@@ -74,6 +71,9 @@
         flex-direction: column;
         align-items: baseline;
         justify-content: space-between;
+        &.mobile {
+          display: flex;
+        }
       }
       .App-link {
         text-decoration: none;
@@ -127,6 +127,7 @@
       justify-content: center;
       @include devices(mobile) {
         display: flex;
+        margin-right: 20px;
       }
       &-link {
         display: flex;
@@ -152,12 +153,11 @@
   .App-header-desc {
     position: relative;
     color: $txt-cl-wh;
-    z-index: 5;
     &-subtitle {
       font-family: $font-one;
       color: $txt-cl-wh;
       font-size: $subtitle;
-      margin-bottom: 30px;
+      margin-bottom: 10px;
       @include devices(mobile) {
         margin-left: 0;
         margin-bottom: 20px;
@@ -168,7 +168,7 @@
       font-family: $font-two;
       color: $txt-cl-wh;
       font-size: $big-title;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
       span {
         color: $primary-clr;
       }
@@ -178,11 +178,22 @@
     }
     &-btn {
       color: $primary-clr;
-      text-shadow: 10px 10px 10px $bg-clr-der;
-      padding: 10px;
-      background-color: rgba($color: $primary-clr, $alpha: 0.5);
+      font-size: $description;
+      font-family: $font-two;
+      text-shadow: 2px 2px 2px $bg-clr-der;
+      cursor: pointer;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      padding-left: 30px;
+      padding-right: 30px;
+      background-color: rgba($color: $primary-clr, $alpha: 0.4);
       border-radius: 60px;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
+      &:hover {
+        color: white;
+        border-color: white;
+        background-color: transparent;
+      }
       @include devices(mobile) {
         font-size: 20px;
       }
@@ -195,5 +206,8 @@
     to {
       transform: rotate(360deg);
     }
+  }
+  @include devices(mobile) {
+    min-height: 60vh;
   }
 }
