@@ -1,4 +1,6 @@
-@use "../styles/uses.scss" as *;
+@use "../styles/variables" as *;
+@use "../styles/mixins" as *;
+
 .App-header {
   background-color: $bg-clr;
   min-height: 100vh;

@@ -6,12 +6,10 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "vite:start": "vite",
-    "vite:build": "vite build"
+    "test": "vite test",
+    "eject": "vite eject",
+    "start": "vite",
+    "build": "vite build"
   },
   "eslintConfig": {
     "extends": [

@@ -1,4 +1,7 @@
-@use "../../styles/uses.scss" as *;
+//@use "../../styles/uses.scss" as *;
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as *;
+
 .App-hamburger {
     display: none;
     flex-direction: row;
