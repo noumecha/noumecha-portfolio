@@ -2,27 +2,56 @@
     "title" : "my list of preferences templates for this protfolio project",
     "url_list" : [
         {
-            "https://technext.github.io/profile/" : [
-            "4-Skills"
+            "https://preview.themeforest.net/item/tokyo-react-personal-portfolio-template/full_screen_preview/32322644" : [
+               
+                
+            ]
+        },
+        {
+            "https://html.themestransmit.com/minfo-tailwind/?version=light" : [
+                "3-Resume"
+            ]
+        },
+        {
+            "https://krozo-nextjs-phi.vercel.app/home-light-animation" : [
+                "2-About",
+                "4-Skills (from About me)"
+            ]
+        },
+        {
+            "meghna template (local)": [
+                "0-Menu",
+                "5-Count Section",
+                "7-Projects"
             ]
         },
         {
             "https://technext.github.io/clark/index.html" : [
-            "5-Services",
-            "6-Hire Me Section",
-            "7-Projects",
-            "8-Contact Section"
+                "5-Services",
+                "6-Hire Me Section"
             ]
         },
         {
-            "https://www.free-css.com/assets/files/free-css-templates/preview/page269/virtual-folio/" : [
-            "0-Menu",
-            "1-Hero Section",
-            "2-About",
-            "3-Resume",
-            "5-Count Section",
-            "7-Projects",
-            "9-Footer"
+            "https://codeefly.net/wp/zyan/" : [
+                "cursor sticks",
+                ""
+            ]
+        },
+        {
+            "https://nichol-vuejs.vercel.app/" : [
+                "9-Footer"
+            ]
+        },
+        {
+            "https://nichol-vuejs.vercel.app/" : [
+                "1-Hero Section",
+                ""
+            ]
+        },
+        {
+            "https://preview.themeforest.net/item/lendex-personal-portfolio-bootstrap-5-template/full_screen_preview/31542002" : [
+                "10-Services-details",
+                "8-Contact Section"
             ]
         }
     ],
