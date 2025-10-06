@@ -1,7 +1,7 @@
 import { Link as RouterLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import "./Header.scss";
-import MenuLink from './MenuLink/MenuLink';
+import MenuLink from '../MenuLink/MenuLink';
 
 function Header ({logo}) {
 
@@ -13,7 +13,9 @@ function Header ({logo}) {
     return (
         <header className="App-header">
             <nav className='container-flex Nav-bar'>
-                <img src={logo} className="App-logo" alt="logo"/>
+                <RouterLink to='/' className='App-link App-link-selected'>
+                    <img src={logo} className="App-logo" alt="logo"/>
+                </RouterLink>
                 <div className='App-menu' id="App-menu">
                     <RouterLink to='/about' className='App-link App-link-selected'>
                         A Propos
@@ -41,17 +43,6 @@ function Header ({logo}) {
                 </div>
                 <MenuLink toggleMenu={toggleMenu}/>
             </nav>
-            <div className='App-header-desc'>
-                <h4 className='App-header-desc-subtitle'>
-                    Bienvenue
-                </h4>
-                <h1 className='App-header-desc-title'>
-                    Je suis <span>Noumecha</span> Spaker
-                </h1>
-                <h4 className='App-header-desc-subtitle App-header-desc-btn btn'>
-                    Ingénieur/Travaux/Informatiques
-                </h4>
-            </div>
         </header>
     );
 }

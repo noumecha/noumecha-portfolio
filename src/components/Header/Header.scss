@@ -1,16 +1,11 @@
-@use "../styles/variables" as *;
-@use "../styles/mixins" as *;
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
 
 .App-header {
   background-color: $bg-clr;
-  min-height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  background-image: url("../assets/bg-header.jpg");
-  background-size: cover;
-  background-position: center center;
-  position: relative;
   display: flex;
+  height: auto;
+  border: 1px solid white;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -30,6 +25,7 @@
     top: 0;
     display: flex;
     flex-direction: row;
+    z-index: 10;
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
@@ -148,55 +144,6 @@
           background-color: $primary-clr;
           height: 1px;
         }
-      }
-    }
-  }
-  .App-header-desc {
-    position: relative;
-    color: $txt-cl-wh;
-    &-subtitle {
-      font-family: $font-one;
-      color: $txt-cl-wh;
-      font-size: $subtitle;
-      margin-bottom: 10px;
-      @include devices(mobile) {
-        margin-left: 0;
-        margin-bottom: 20px;
-        font-size: 22px;
-      }
-    }
-    &-title {
-      font-family: $font-two;
-      color: $txt-cl-wh;
-      font-size: $big-title;
-      margin-bottom: 25px;
-      span {
-        color: $primary-clr;
-      }
-      @include devices(mobile) {
-        font-size: 26px;
-      }
-    }
-    &-btn {
-      color: $primary-clr;
-      font-size: $description;
-      font-family: $font-two;
-      text-shadow: 2px 2px 2px $bg-clr-der;
-      cursor: pointer;
-      padding-top: 10px;
-      padding-bottom: 15px;
-      padding-left: 30px;
-      padding-right: 30px;
-      background-color: rgba($color: $primary-clr, $alpha: 0.4);
-      border-radius: 60px;
-      margin-bottom: 25px;
-      &:hover {
-        color: white;
-        border-color: white;
-        background-color: transparent;
-      }
-      @include devices(mobile) {
-        font-size: 20px;
       }
     }
   }

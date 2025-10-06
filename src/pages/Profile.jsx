@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Link from "../components/Link";
+import Link from "../components/Link/Link";
 import List from "../components/List";
 import './Profile.scss';
 

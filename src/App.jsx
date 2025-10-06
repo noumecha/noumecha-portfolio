@@ -1,10 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import Profile from './pages/Profile';
 import Projects from './pages/Projects';
 import ProjectDetails from './pages/ProjectDetails';
 import logo from './assets/logo.svg';
 import './App.scss';
+import Footer from './components/Footer/Footer';
+import Hero from './components/Hero/Hero';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
           />
         </Routes>
       </BrowserRouter>
+      <Hero/>
+      <Footer/>
     </div>
   );
 }
