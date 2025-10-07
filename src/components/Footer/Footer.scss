@@ -2,5 +2,6 @@
 @use "../../styles/mixins" as *;
 
 .footer {
-    border: 1px solid green($color: #000000);
+    border: 1px solid green;
+    margin-top: 20px;
 }
